@@ -59,7 +59,8 @@
             <li><a href="${pageContext.request.contextPath}/index.jsp">Inicio</a></li> 
             <li><a href="${pageContext.request.contextPath}/Nosotros.jsp">Nosotros</a></li>
             <li><a href="${pageContext.request.contextPath}/Talleres.jsp">Talleres</a></li>
-            <li><a href="${pageContext.request.contextPath}/Contactos.jsp">Contactos</a></li>           
+            <li><a href="${pageContext.request.contextPath}/Contactos.jsp">Contactos</a></li> 
+                      
           </ul>
         </div><!--/.nav-collapse -->
       </div>

@@ -52,21 +52,14 @@ public class siteController extends HttpServlet {
 				contactopage(request,response);
 				break;
 			
-			case "":
-				homepage(request,response);
-				break;
-		}
+			
 	}
 
-	private void homepage(HttpServletRequest request, HttpServletResponse response) 
-		// TODO Auto-generated method stub
-		throws ServletException, IOException {
-			request.setAttribute("title", "Homepage");
-			request.getRequestDispatcher("index.jsp").forward(request, response);
+
 		
 	}
 
-	private void contactopage(final HttpServletRequest request, final HttpServletResponse response) 
+	private void contactopage(HttpServletRequest request, HttpServletResponse response) 
 		// TODO Auto-generated method stub
 		throws ServletException, IOException {
 			request.setAttribute("title", "Homepage");
